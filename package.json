@@ -1,0 +1,21 @@
+{
+    "name": "taskmanagerplus-mocha-supertest",
+    "version": "1.0.0",
+    "description": "Test automation suite for Task Manager Plus API",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "test": "mocha --recursive --timeout 5000 --exit"
+    },
+    "author": "Maicon Fang",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.19.2"
+    },
+    "devDependencies": {
+      "chai": "^5.1.1",
+      "mocha": "^10.7.3",
+      "supertest": "^7.0.0"
+    }
+  }
+  
